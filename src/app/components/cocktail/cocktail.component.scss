@@ -1,0 +1,82 @@
+/*
+// Stili per gli Android con larghezza tra 320px e 767px e rapporto pixel del dispositivo di 2
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (-webkit-device-pixel-ratio: 2) {
+  .card {
+    width: 100%;
+  }
+  .card-style {
+    margin: 0 5% 30px 5%;
+}
+
+// Stili per gli Android con larghezza tra 768px e 1024px e rapporto pixel del dispositivo di 2
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-device-pixel-ratio: 2) {
+  .card {
+    width: 70%;
+  }
+  .card-style {
+    margin: 0 15% 30px 15%;
+  }
+}
+*/
+.body {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: khaki;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  width: 500px;
+}
+.card-style {
+  overflow: hidden;
+  margin: 0px 16px 30px 16px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 4px 24px 0 black;
+}
+.contain {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.container {
+  margin: 5px 15px 5px 15px;
+}
+.divider {
+  height: 1px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 18px !important;
+}
+
+p{
+  font-size: 12px !important;
+  margin: 0px;
+}
+
+/* Adattamento per dispositivi con larghezza inferiore a 500px */
+@media only screen and (max-width: 500px) {
+  .card {
+    width: 380px;
+  }
+  .card-style {
+    margin: 0px 5% 30px 5%;
+  }
+}

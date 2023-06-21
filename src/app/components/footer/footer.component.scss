@@ -1,0 +1,13 @@
+.footer-bar {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 98;
+  background-color: #241e20;
+  box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.06);
+  min-height: 60px;
+  display: flex;
+  text-align: center;
+  transition: all 350ms ease;
+}
